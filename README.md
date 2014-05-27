@@ -5,17 +5,15 @@ Small CMS, Uses files no MySQL. One php file.
 
 
 Требования к хостингу:
+
 	Linux/Unix, Windows Server;
-    
 	Apache, nginx или Cherokee;
-    
 	PHP 5+;
-    
 	Flat file database;
 	MySQL не нужен.
 
-
 Перечень возможностей:
+
     Создание новых страниц;
     Редактирование страниц;
     Поддержка шаблонов;
@@ -28,13 +26,13 @@ Small CMS, Uses files no MySQL. One php file.
     Charset UTF-8;
     Doctype XHTML 1.0 Strict.
 
-
 Безопасность:
+
     Пароли хранятся в зашифрованном виде - MD5.
     Есть возможность дать доступ только определенным IP адресам.
 
-
 Установка:
+
     Установить "Einplac CMS" возможно на любой Linux, Windows хостинг. Так же следует отметить, CMS состоит всего из нескольких файлов и не нуждается в СУБД (MySQL), что позволяет устанавливать и переносить ее путем простого копирования файла по FTP или SSH.
     Права доступа chmod:
         index.php - 755
