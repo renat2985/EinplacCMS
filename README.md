@@ -6,11 +6,11 @@ Small CMS, Uses files no MySQL. One php file.
 
 ###Требования к хостингу:###
 
-	Linux/Unix, Windows Server;
-	Apache, nginx или Cherokee;
-	PHP 5+;
-	Flat file database;
-	MySQL не нужен.
+* Linux/Unix, Windows Server;
+* Apache, nginx или Cherokee;
+* PHP 5+;
+* Flat file database;
+* MySQL не нужен.
 
 ###Перечень возможностей:###
 
