@@ -25,8 +25,8 @@
 // ##########################
 // 	START CONFIGURE CMS
 // ##########################
-$version = 'v2.9b';			// Version Einplac CMS
-$version_date = '2013.02.07';	// Realise date version
+$version = 'v2.9e';			// Version Einplac CMS
+$version_date = '2015.05.27';	// Realise date version
 $directory = './files';		// Content folder
 $directory_template = './template';	// Template folder
 $type_files = '.txt';			// Content type files
