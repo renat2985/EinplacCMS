@@ -1,0 +1,3 @@
+          <p>
+            <strong>Welcome Einplac CMS</strong> You can change many things by clicking on them 2 times with left mouse button in the site . In Firefox, Internet Explorer and Chrome the cursor changes to the yellow pencil in the location which you can edit.
+          </p>

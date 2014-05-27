@@ -1,0 +1,54 @@
+/*
+	project: Social Community Management
+	author:  Luka Cvrk
+	www.solucija.com
+	
+	Einplac CMS
+	www.myworld.lv
+	Last update: 08/06/2011
+*/
+
+*{margin:0;outline:0;padding:0;}
+body{background:#f4f4f4 url(../images/bg.jpg) no-repeat center top;color:#777;font:11px/18px Georgia, Palatino, "Times New Roman", Times, Serif;}
+a{color:#89A213;text-decoration:none;}
+a:hover{color:#556314;}
+p{line-height:1.6em;margin:0 0 15px;}
+h1{color:#fff;float:left;font-size:2.7em;line-height:1.5em;margin:0 0 20px;text-shadow:#89A213 1px 1px 1px;width:320px;}
+h2{font-size:1.6em;margin:0 0 15px;}
+h3{clear:both;color:#444;font-size:1.3em;line-height:1.3em;margin:0 0 7px;}
+h4{font-size:1.2em;margin:0 0 10px;}
+#content{margin:0 auto;width:960px;}
+#header{height:350px;}
+#top{color:#fff;height:31px;margin:0 0 60px;padding:13px 0 0;}
+#lang{float:right;}
+#pitch{clear:left;color:#59690C;float:left;font-size:1.2em;margin:0 0 60px;padding:20px 0 0;width:610px;}
+#menu{float:right;margin:10px 15px 0 0;}
+#menu li{display:inline;}
+#menu li a{color:#EFF4D7;float:left;font-size:1.2em;margin:0 0 0 20px;padding:4px;}
+#menu li a:hover,#menu li a.current{border-bottom:1px solid #A5BE2E;color:#fff;}
+.col{float:left;margin:0 39px 30px 0;width:300px;}
+.last{background:#fff;float:right;margin:-76px 0 0;position:relative;width:280px;}
+.col.last div{padding:12px;}
+img{background:transparent url(../images/loading.gif) no-repeat scroll 50%;border:1px solid #ddd;margin:5px 15px;padding:5px;}
+.date{color:#444;margin:0 0 12px;}
+.col h4{background:#83981F;color:#fff;padding:15px;}
+#main{clear:both;float:left;font-size:1.2em;width:640px;}
+.left{float:left;margin:0 30px 10px 0;}
+.right{float:right;margin:0 0 10px 30px;}
+#main p{text-align:justify;}
+#footer{border-top:1px solid #ddd;clear:both;color:#999;padding:25px 0;}
+#footer p{margin:0 0 12px;}
+#footer a{color:#555;margin:0 0 0 5px;}
+h1 a,#top a{color:#fff;}
+.x,#cols{clear:both;}
+
+
+#editthepage{min-height:80px;min-width:200px;}
+input.button,form button{background-color:#A9C80A;border:1px dotted #FFF;color:#FFF;cursor:pointer;font-weight:700;margin:1px;padding:1px 3px;text-decoration:none;}
+input.button:hover,form button:hover{background-color:#83981F;}
+/* button[type="cancel"]{opacity: 0.7;} */
+.edittext textarea,.edittextarea textarea,.editinput input,#formnewpage input{background-color:transparent;border:1px dotted #777;display:block;}
+.editinput input{min-width:200px;}
+.edittext,.editselect,.editinput,.newpage,.edittextarea{cursor:url('../images/edit.cur'), text;}
+#cmssettings ul{margin-left:10px;}
+#main .edittext,#pitch .edittext{display:block;} /* For Chrome bug */

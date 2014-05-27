@@ -1,0 +1,87 @@
+<h2>Welcome Einplac CMS Tutorials</h2>
+
+<h3>CMS File: <i>./index.php</i></h3>
+<p><img src="http://placehold.it/200x160&amp;text=Tutorials" style="float:right;" alt="Image">
+// ##########################<br>
+// 	START CONFIGURE CMS<br>
+// ##########################<br>
+<b>$version = 'v2.9';</b> <i>// Version Einplac CMS</i><br>
+<b>$version_date = '2013.02.05';</b> <i>// Date version</i><br>
+<b>$directory = './files';</b> <i>// Content folder</i><br>
+<b>$directory_template = './template';</b> <i>// Template folder</i><br>
+<b>$type_files = '.txt';</b> <i>// Content type files</i><br>
+<b>$upload_folder = './images/';</b> <i>// Image upload dir</i><br>
+<b>$upload_max_size = '3000';</b> <i>// Max size Kb</i><br>
+<b>$upload_file = 'jpg|png|jpeg|gif';</b> <i>// Allow file</i><br>
+<b>$cookie = 'einplaccms';</b> <i>// Cookie name</i><br>
+<b>$cookie_time = '86400';</b> <i>// Login time (1 day)</i><br>
+<b>$edit_content = 'dblclick';</b> <i>// dblclick or click or mouseover</i><br>
+<b>$page_name_max = '25';</b> <i>//Page name max 25 symbol</i><br>
+<b>$multi_lang = 'off';</b> <i>// Multilanguage: off or en,lv,ru,de</i><br>
+<b>$range_ip = 'all';</b> <i>// Allow admin IP: 'all' or IP or IP1,IP2,IP3</i><br>
+<b>$salt = '4rGe35ktY';</b> <i>// Key: Enter here you text 5-10 symbol (Delete password.php)</i><br>
+// ##########################<br>
+// 	END CONFIGURE<br>
+// ##########################
+</p>
+<br>
+<br>
+<h3>Template Files: <i>./template/*.tpl</i></h3>
+<p>
+<b>&lt;?php echo $title; ?&gt;</b> <i>Example: &lt;title&gt;&lt;?php echo $title; ?&gt;&lt;/title&gt;</i><br>
+<b>&lt;?php echo $keywords; ?&gt;</b> <i>Example: &lt;meta name="keywords" content="&lt;?php echo $keywords; ?&gt;" /&gt;</i><br>
+<b>&lt;?php echo $description; ?&gt;</b> <i>Example: &lt;meta name="description" content="&lt;?php echo $description; ?&gt;" /&gt;</i><br>
+<b>&lt;?php echo displayEditLibrary(); ?&gt;</b> <i>Display JS libary for edit pages.</i><br>
+<b>&lt;?php echo $slogan; ?&gt;</b> <i>Adding an editable block description of the site.</i><br>
+<b>&lt;?php echo displaySectionContent('1'); /* Duplicated on each pages: MIN:1, MAX:5. Individually on each page: MIN:6, MAX:9 */ ?&gt;</b> <i>Adding an editable block of site.</i><br>
+<b>&lt;?php echo displayMainContent(); ?&gt;</b> <i>Page content.</i><br>
+<b>&lt;?php echo displaySettings(); ?&gt;</b> <i>Admin options.</i><br>
+<b>&lt;?php echo $lstatus; ?&gt;</b> <i>View: Login/Logout.</i><br>
+<b>&lt;?php echo $copyright; ?&gt;</b> <i>Adding an editable block copyright of the site.</i><br>
+<b>&lt;?php echo $version; ?&gt;</b> <i>View CMS version.</i>
+</p>
+<br>
+<br>
+<h3>Einplac Directory/Files:</h3>
+<pre>|---favicon.ico				<i>-rw-rw-rw- (CHMOD 666)</i>
+|---index.php				<i><b>drwxr-xr-x (CHMOD 755)</b></i>
+|---robots.txt				<i>-rw-rw-rw- (CHMOD 666)</i>
+|---css
+|   |---default.css			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---facebox.css			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---jquery.wysiwyg.css		<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---manifest.css			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---wuwei.css			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   `---minimalistic.css		<i>-rw-rw-rw- (CHMOD 666)</i>
+|---files
+|   |---.htaccess			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---attachment2.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---attachment3.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---attachment4.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---attachment5.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---home.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---navigation.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---password.php			<i><b>drwxr-xr-x (CHMOD 755)</b></i>
+|   |---forum.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   `---tutorials.txt			<i>-rw-rw-rw- (CHMOD 666)</i>
+|---images
+|   |---bg.jpg				<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---button80x15.png			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---closelabel.png			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---edit.cur			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---EinplacCMS.png			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---jquery.wysiwyg.gif		<i>-rw-rw-rw- (CHMOD 666)</i>
+|   `---loading.gif			<i>-rw-rw-rw- (CHMOD 666)</i>
+|---js
+|   |---facebox.js			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---fileuploader.js			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---jquery.jeditable.js		<i>-rw-rw-rw- (CHMOD 666)</i>
+|   |---jquery.min.js			<i>-rw-rw-rw- (CHMOD 666)</i>
+|   `---jquery.wysiwyg.js		<i>-rw-rw-rw- (CHMOD 666)</i>
+`---template
+    |---.htaccess			<i>-rw-rw-rw- (CHMOD 666)</i>
+    |---default.tpl			<i>-rw-rw-rw- (CHMOD 666)</i>
+    |---manifest.tpl			<i>-rw-rw-rw- (CHMOD 666)</i>
+    |---wuwei.tpl			<i>-rw-rw-rw- (CHMOD 666)</i>
+    `---minimalistic.tpl		<i>-rw-rw-rw- (CHMOD 666)</i>
+</pre><br>

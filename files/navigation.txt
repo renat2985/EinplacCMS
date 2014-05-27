@@ -1,0 +1,8 @@
+        <ul id="menu">
+          <li><a href="./">Home</a></li>
+          <li><a href="./?page=tutorials">Tutorials</a></li>
+          <li><a href="./?page=forum">Forum</a></li>
+          <li><a href="./?page=social">Social Networks</a></li>
+          <li><a href="./?page=about">About Us</a></li>
+          <li><a href="./?page=contact">Contact Us</a></li>
+        </ul>

@@ -1,0 +1,63 @@
+/*
+	Einplac CMS
+	www.myworld.lv
+	Last update: 08/06/2011
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:none repeat scroll 0 0 transparent;border:0 none;font-size:100%;margin:0;outline:0 none;padding:0;vertical-align:baseline;}
+body{background:none repeat scroll 0 0 #FFF;color:#333;font:62.5% palatino,"times new roman",serif;line-height:1;}
+ol,ul{list-style:none outside none;}
+a:link,a:visited{color:#9C8A6A;text-decoration:none;}
+a:hover,a:active{color:#3E372B;text-decoration:underline;}
+h1{font-size:3.3em;font-weight:400;letter-spacing:0.05em;margin:10px 0 20px;text-transform:uppercase;word-spacing:0.2em;}
+h1 a:hover,h1 a:active{color:#000;text-decoration:underline;}
+h2{color:#000;font-size:2.4em;font-weight:400;margin-bottom:40px;margin-top:30px;text-transform:uppercase;}
+h3{font-size:2.3em;font-weight:400;margin-bottom:5px;}
+h3 a:link,h3 a:visited{color:#333;}
+h4{color:#333;font-size:1.5em;font-weight:700;margin-bottom:10px;}
+h5{background:none repeat scroll 0 0 #FFF;border-bottom:1px solid #DDD;color:#999;font-family:"helvetica neue",helvetica,arial;font-size:1.2em;font-weight:400;position:relative;top:-35px;}
+h5 abbr{background:none repeat scroll 0 0 #FFF;display:inline-block;margin:0 auto;padding:0 8px;position:relative;top:5px;}
+#siteWrapper{margin:0 auto;padding-top:15px;position:relative;text-align:center;width:500px;}
+#siteDescription{color:#999;font-size:1.2em;font-style:italic;margin:10px auto 60px;padding:11px 0 13px;width:400px;}
+#mainNav,#cmssettings,#settingopenhide{background:none repeat scroll 0 0 #FBFBFB;border-bottom:1px solid #EAEAEA;border-top:1px solid #EAEAEA;margin-top:10px;padding:10px;}
+#mainNav li{display:inline;font-size:1.5em;margin-right:20px;text-transform:uppercase;}
+#subNav{border-bottom:1px solid #F4F4F4;padding:5px 3px 3px;}
+#subNav li,#settingopenhide{display:inline;font-size:1.2em;margin-right:20px;text-transform:uppercase;}
+#coreContent{float:left;margin-top:8px;width:500px;}
+#coreContent p{color:#333;font-size:1.4em;line-height:1.5em;margin-bottom:1.7em;text-align:justify;}
+.entry-content{text-align:left;}
+.post{border-bottom:1px dotted #DDD;margin-bottom:30px;padding-bottom:37px;position:relative;}
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6{border:medium none;color:#333;font-family:constantia,palatino,times new roman;font-style:normal;font-weight:700;margin:0 0 5px;padding:0;position:static;}
+.entry-content h1{font-size:2em;letter-spacing:0;}
+.entry-content h2{font-size:2.3em;font-weight:400;margin-bottom:5px;padding-bottom:30px;text-align:center;}
+.entry-content h2 a{color:#333;text-transform:none;}
+.entry-content h3{font-size:1.6em;}
+.entry-content pre{color:#666;font-size:1.5em;line-height:18px;margin-bottom:15px;}
+.entry-content ul,.entry-content ol{margin:0 0 20px 15px;}
+.post img{background:transparent url(../images/loading.gif) no-repeat scroll 50%;border:1px solid #CCC;margin:5px 15px;padding:2px;}
+.pageNav{margin-top:40px;}
+.pageNav a:link,.pageNav a:visited{font-size:1.5em;}
+.pageNav .prev,.pageNav .next{display:block;}
+.pageNav .prev{float:left;}
+#footer{color:#666;margin:40px auto 0;padding:20px 0 35px;text-align:center;width:500px;}
+#footer p{line-height:1.4em;}
+.googleAd{border-top:1px dotted #CCC;margin-bottom:40px;padding-top:40px;}
+h1 a:link,h1 a:visited,.entry-content strong,h2.archiveTitle strong{color:#000;}
+h3 a:hover,h3 a:active,.entry-content a:link,.entry-content a:visited{text-decoration:underline;}
+#mainNav ul,#subNav ul{margin:0 auto;text-align:center;width:45em;}
+#mainNav li:last-child,#subNav li:last-child{margin-right:0;}
+#mainNav a:link,#mainNav a:visited,#subNav a:link,#subNav a:visited{color:#999;white-space:nowrap;}
+#mainNav a:hover,#mainNav a:active,#subNav a:hover,#subNav a:active{color:#2E301C;text-decoration:underline;}
+.entry-content h4,.entry-content h5,.entry-content h6,#comments h3{font-size:1.4em;}
+
+
+#cmssettings,#settingopenhide{border:1px solid #EAEAEA;font-size:1.4em;left:0;position:fixed;text-align:left;top:45px;}
+#settingopenhide{top:0;}
+#cmssettings h2{font-size:1.4em;font-weight:400;margin:5px;}
+#cmssettings ul{margin-left:10px;}
+#editthepage{min-height:80px;min-width:200px;}
+input.button,form button{background-color:#333;border:1px dotted #FFF;color:#FFF;cursor:pointer;font-weight:700;margin:1px;padding:2px 7px;text-decoration:none;}
+input.button:hover,form button:hover{background-color:#555;}
+.edittext textarea,.edittextarea textarea,.editinput input,#formnewpage input{background-color:transparent;border:1px dotted #777;display:block;}
+.editinput input{min-width:200px;}
+.edittext,.editselect,.editinput,.newpage,.edittextarea{cursor:url('../images/edit.cur'), text;}

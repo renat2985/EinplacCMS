@@ -1,0 +1,84 @@
+[Image]
+File name=C:\Documents and Settings\baiba\Desktop\EinplacCMS\newproject.png
+Format=0
+Custom size=1
+Width=315
+Height=372
+Margin x1=0
+Margin y1=0
+Margin x2=0
+Margin y2=0
+Keep proportion=1
+[Video]
+File name=
+Format=0
+Custom size=0
+Width=100
+Height=100
+Rotate type=0
+Rotate direction=0
+Frames=40
+Frame rate=20
+Swf quality=95
+Gif error diff=1
+Avi flip=0
+Avi codec=0
+[Project]
+Type=1
+Size x=0.73
+Size y=1
+Size z=0.32
+Custom size=0
+Custom size x=0.73
+Custom size y=1
+Custom size z=0.32
+[Model]
+Rotation x=-3
+Rotation y=18
+Rotation z=0
+Scale x=1
+Scale y=1
+Scale z=1
+Position x=0
+Position y=0
+Position z=-5
+Perspective=0.5
+Zoom=24
+Model rotation x=-0
+Model rotation y=0
+Model rotation z=0
+Model position x=0
+Model position y=-0
+Model position z=0
+[Design]
+Transparent background=1
+Background color=-1
+Object color=-4144960
+Front image=C:\Documents and Settings\baiba\Desktop\EinplacCMS\logo_bg.png
+Top image=C:\Program Files\Insofta Cover Commander\Data\cc_top.png
+Left image=C:\Documents and Settings\baiba\Desktop\EinplacCMS\logo_bg.png
+Right image=C:\Program Files\Insofta Cover Commander\Data\cc_left.png
+Back image=C:\Program Files\Insofta Cover Commander\Data\cc_front.png
+Bottom image=C:\Program Files\Insofta Cover Commander\Data\cc_top.png
+CD image=C:\Program Files\Insofta Cover Commander\Data\cd_realistic.png
+[Light]
+Global light=0.18
+Light 1 enabled=1
+Light 1 angle 1=149
+Light 1 angle 2=33
+Light 1 distance=11.8
+Light 2 enabled=1
+Light 2 angle 1=122
+Light 2 angle 2=52
+Light 2 distance=13.4
+[Shadow]
+Type=2
+Direction=270
+Length=67
+Intensity=0.4
+Opacity=0.6
+Blur=3.2
+[Reflection]
+Enabled=1
+Intensity=0.15
+Opacity=0.5

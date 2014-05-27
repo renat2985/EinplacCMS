@@ -1,0 +1,40 @@
+/*
+	Einplac CMS
+	www.myworld.lv
+	Last update: 08/06/2011
+*/html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,acronym,abbr,blockquote,pre,a,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+body{background-color:#FFF;color:#516064;font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:75%;line-height:1.5;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+a img{border:none;}
+hr,input,textarea,select{border:1px solid #D1D9DC;}
+.hr{border-top:1px solid #D1D9DC;padding:2em 0;}
+#head,#footer{height:3em;margin:0 auto;text-align:center;width:800px;}
+#head ul{margin:0;padding:0;}
+#head li{display:block;float:left;font-size:0.916em;list-style:none outside none;margin-right:1.819em;padding:0;}
+#head li a,#menu li a:visited{color:#6A797D;display:block;font-weight:700;line-height:1em;padding:10px 0;text-decoration:none;text-transform:lowercase;width:8.5em;}
+#head li a:hover,#head li #settingopenhide{border-top:3px solid #FF8A00;}
+a,a:visited, #head li #settingopenhide {color:#FF8A00;text-decoration:none;}
+h1,.post,#cmssettings{margin:0 auto;padding:2em 0;text-align:left;width:800px;}
+h1 a{color:#D1D9DC;font-size:4em;font-weight:700;line-height:1em;text-decoration:none;}
+h1 span{color:#6A797D;display:block;font-size:1.2em;margin-top:0.5em;}
+.col{float:left;margin:0 40px 30px 0;text-align:left;width:380px;}
+.col.last{margin-right:0;}
+h2,h3{color:#959EA1;font-size:2.5em;font-weight:700;line-height:1em;padding-bottom:0.6em;}
+img{background:transparent url(../images/loading.gif) no-repeat scroll 50%;margin:5px 15px;padding:5px;}
+
+
+#editthepage{min-height:80px;min-width:200px;}
+input.button,form button{background-color:#FF8A00;border:1px solid #FF6600;color:#FFF;cursor:pointer;font-weight:700;margin:1px;padding:1px 3px;text-decoration:none;}
+input.button:hover,form button:hover{background-color:#FF6600;}
+.edittext textarea,.editinput input,.edittextarea textarea,#formnewpage input{display:block;}
+.editinput input{min-width:200px;}
+.edittext,.editselect,.editinput,.newpage,.edittextarea{cursor:url('../images/edit.cur'), text;}
+#cmssettings,#settingcms{height:25em;}
+#settingcms{float:left;padding-right:60px;}
+#cmssettings ul{margin-left:10px;}
+.details .edittext,.col .edittext,.body .edittext,.post .edittext{display:block;} /* For Chrome bug */

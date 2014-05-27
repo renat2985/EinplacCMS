@@ -1,0 +1,21 @@
+<h2><a href="#">The first steps in Einplac CMS!</a></h2>
+<p><a href="./images/EinplacCMS.png"><img style="width:200px;float:left;" src="./images/EinplacCMS.png" alt="Image"></a>
+I, Renat Zozula, am more than 7 years closely related to web development. For many projects had to develop their own system of governance. Every time I wanted to make site management as easy as possible, convenient and compact. During this time I managed to create a different route of administration for sites different from the normal system.
+Which eventually became popular among the customers site cards. 
+</p>
+
+<h3><a href="./?login">Log In</a> <br>
+Default pass: <i>admin</i>. <a href="./?login">Join?</a></h3>
+
+<br><br><br>
+<p><a href="http://placehold.it/550x400&amp;text=Example+image.png"><img src="http://placehold.it/250x160" style="float:right;" alt="Image"></a>
+<b>Terms of use</b><br>
+Einplac CMS is spreading under the license <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a>. 
+This license allows use for commercial and personal purpose, but only provided that references to the developer is shown in standard form as autor guess. Please respect the copyright and save a reference to Einplac CMS at the bottom of your site.
+</p>
+
+<p><b>Video Tutorial</b><br>
+<a href="http://www.youtube.com/watch?v=Jv_aEVxvHJY">Einplac CMS v1.5 - Edit In Place</a> on <a href="http://www.youtube.com">YouTube</a>.</p>
+
+<p><iframe title="YouTube video player" src="http://www.youtube.com/embed/Jv_aEVxvHJY" allowfullscreen="" frameborder="0" height="300" width="450"></iframe></p>
+<div class="x"></div>

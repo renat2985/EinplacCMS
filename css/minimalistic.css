@@ -1,0 +1,47 @@
+/*
+	Einplac CMS
+	www.myworld.lv
+	Last update: 08/06/2011
+*/
+
+*{margin:0;padding:0;}
+body{background:#fff;color:#777;font:.8em Georgia, "Times New Roman", Serif;}
+a{color:#D40000;text-decoration:none;}
+a:hover{color:#8F0000;}
+p{line-height:1.7em;margin:0 0 15px;}
+.x{clear:both;}
+h1{float:left;font-size:2em;font-style:italic;font-weight:400;margin:0 0 10px;padding:0 0 25px 10px;}
+h1 a{color:#777;}
+h1 span{display:block;font-size:12px;}
+h2,h4{font-size:2.6em;font-weight:400;margin:0 0 15px;padding:0 0 10px;}
+h3{font-size:1.7em;font-weight:400;margin:0 0 20px;}
+h3 a{color:#222;}
+#content{margin:40px auto;width:960px;}
+#menu{float:right;margin:10px 10px 0 0;}
+#menu li{display:inline;list-style:none;}
+#menu li a{color:#888;float:left;margin:0 0 0 20px;}
+#menu li a:hover,h1 a:hover{color:#555;}
+.body .left{border:0 none;float:left;margin:0 15px 5px 0;}
+.body .right{border:0 none;float:right;margin:0 0 5px 15px;}
+.post{border-bottom:1px solid #ddd;border-top:1px solid #ddd;clear:both;margin:0 0 40px;padding:30px 10px;}
+.post .details{float:left;width:250px;}
+.post .details h2,.post .details h4{color:#D40000;}
+.post .details .info{color:#999;font-size:.9em;}
+.post .details .info a{border-bottom:1px dotted #999;color:#777;padding:3px 1px;}
+.post .body{border-left:1px solid #ddd;float:right;padding:0 0 0 30px;width:618px;}
+.col{float:left;font-size:.9em;margin:0 40px 30px 0;width:290px;}
+.col.last{margin-right:0;}
+#footer{border-top:1px solid #ddd;clear:both;color:#999;font-size:.9em;padding:20px 0;}
+img{background:transparent url(../images/loading.gif) no-repeat scroll 50%;border:1px solid #ddd;margin:5px 15px;padding:5px;}
+
+
+#editthepage{min-height:80px;min-width:200px;}
+input.button,form button{background-color:#D40000;border:1px dotted #FFF;color:#FFF;cursor:pointer;font-weight:700;margin:1px;padding:1px 3px;text-decoration:none;}
+input.button:hover,form button:hover{background-color:#8F0000;}
+.edittext textarea,.editinput input,.edittextarea textarea,#formnewpage input{background-color:transparent;border:1px dotted #777;display:block;}
+.editinput input{min-width:200px;}
+.edittext,.editselect,.editinput,.newpage,.edittextarea{cursor:url('../images/edit.cur'), text;}
+#cmssettings ul{margin-left:10px;}
+.details .edittext,.col .edittext,.body .edittext{display:block;} /* For Chrome bug */
+.edittext:hover,.edittextarea:hover,.editselect:hover,.editinput:hover,.newpage:hover{background-color:#f9f9f9;}
+.edittext:hover form {background-color: #FFFFFF;}
