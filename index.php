@@ -117,8 +117,8 @@ $lang=array(
 'error_404' => 'ERROR 404<br /> Page not found.',
 'error_open' => 'Error, unable to open file.<br />Please make sure read/write permissions are enabled.'
 );
-if (file_exists($directory.'/lang.php')) { 
-include($directory.'/lang.php'); 
+if (file_exists($directory.'/lang.php')) {
+include($directory.'/lang.php');
 }
 
 // MULTILANGUAGE
