@@ -2,7 +2,6 @@ EinplacCMS
 ==========
 
 Small CMS, Uses files no MySQL. One php file.
-Home page: http://www.myworld.lv/einplaccms.html
 
 
 ###Требования к хостингу:###
